@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Shop</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normilize.css">
+  <link rel="stylesheet" href="css/gift.css">
+  <link rel="stylesheet" href="css/media_gift.css">
+  <script src="js/gift.js" defer></script>
+</head>
+
+<body>
+  <header class="header wrapper">
+    <div class="header__content ">
+      <a href="home.html" class="header__logo-link">
+        <img class="header__logo" src="img/svg/Logo.svg" alt="logo">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item header__item--active">
+            <a class="header__link" href="#">gifts</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="home.html#about">about</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="home.html#best">best</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#footer">contacts</a>
+          </li>
+        </ul>
+      </nav>
+      
+      <div class="header__burger">
+        <div class="burger-icon">
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="header__nav-burger">
+          <ul class="header__list-burger">
+            <li class="header__item-burger">
+              <a class="header__link-burger header__link--active" href="gift.html">gifts</a>
+            </li>
+            <li class="header__item-burger">
+              <a class="header__link-burger" href="home.html#about">about</a>
+            </li>
+            <li class="header__item-burger">
+              <a class="header__link-burger" href="home.html#best">best</a>
+            </li>
+            <li class="header__item-burger">
+              <a class="header__link-burger" href="#footer">contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main wrapper">
+    <section class="gifts">
+      <div class="gifts__content wrapper">
+        <h1 class="gifts__title">Achieve health, harmony, and inner strength</h1>
+        <nav class="gifts__nav">
+          <ul class="nav__list">
+            <li class="nav__item nav__item--active">
+              <a class="nav__link" href="#">All</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">for work</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">for health</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">for harmony</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="gifts__list"></ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="footer">
+    <div class="footer__content wrapper">
+      <div class="footer__contact">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <div class="footer__icon">
+              <img class="footer__icon--svg" src="img/svg/santa-claus.svg" alt="Santa Claus">
+            </div>
+            <a class="footer__text" href="tel:+375(29)111-22-33">+375 (29) 111-22-33</a>
+            <h3 class="footer__title">Call Us</h3>
+          </li>
+
+          <li class="footer__item">
+            <a class="footer__link" href="https://www.google.com/maps?q=66.5436144,25.8471974" target="_blank" rel="noopener noreferrer">
+              <div class="footer__icon">
+                <img class="footer__icon--svg" src="img/svg/christmas-tree.svg" alt="Christmas Tree">
+              </div>
+              <p class="footer__text">Magic forest</p>
+              <h3 class="footer__title">meet us</h3>
+            </a>
+          </li>
+          
+          <li class="footer__item">
+              <div class="footer__icon">
+                <img class="footer__icon--svg" src="img/svg/snake.svg" alt="Snake">
+              </div>
+              <a class="footer__text" href="mailto:gifts@magic.com">gifts@magic.com</a>  
+              <h3 class="footer__title">write us</h3>
+          </li>
+        </ul>
+      </div>
+    
+
+      <div class="footer__social">
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link footer__social-link--tg" href="#"></a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link footer__social-link--fb" href="#"></a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link footer__social-link--instagram" href="#"></a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link footer__social-link--x" href="#"></a>
+          </li>
+        </ul>
+        <p class="footer__copy">© Copyright 2025, All Rights Reserved</p>
+        <a class="section__caption footer__caption" href="https://rs.school/" target="_blank">Made in Rolling Scopes School</a>
+      </div>
+    </div>
+  </footer>
+  <button class="scroll-to-top" id="scrollToTop">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 5V19" stroke="#FF4646" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M18 11L12 5" stroke="#FF4646" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M6 11L12 5" stroke="#FF4646" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+  </button>
+
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modal">
+      <div class="modal__close" id="modalClose">
+        <span class="modal__close-line"></span>
+        <span class="modal__close-line"></span>
+      </div>
+      <div class="modal__content">
+        <img class="modal__image" id="modalImage" src="sample.png" alt="Gift Image">
+        <div class="modal__text-content">
+          <h4 class="modal__category" id="modalCategory">sample</h4>
+          <h3 class="modal__title" id="modalTitle">sample</h3>
+          <p class="modal__description" id="modalDescription"></p>
+          <div class="modal__superpowers">
+            <h5 class="modal__superpowers-title">Adds Superpowers to:</h5>
+            <dl class="modal__superpowers-list">
+              <div class="modal__superpowers-item">
+                <dt>Live:</dt>
+                <dd class="modal__superpowers-detail">
+                  <span id="superpowerLive" class="modal__superpowers-value"></span>
+                  <div id="snowflakesLive" class="snowflakes"></div>
+                </dd>
+              </div>
+              <div class="modal__superpowers-item">
+                <dt>Create:</dt>
+                <dd class="modal__superpowers-detail">
+                  <span id="superpowerCreate" class="modal__superpowers-value"></span>
+                  <div id="snowflakesCreate" class="snowflakes"></div>
+                </dd>
+              </div>
+              <div class="modal__superpowers-item">
+                <dt>Love:</dt>
+                <dd class="modal__superpowers-detail">
+                  <span id="superpowerLove" class="modal__superpowers-value"></span>
+                  <div id="snowflakesLove" class="snowflakes"></div>
+                </dd>
+              </div>
+              <div class="modal__superpowers-item">
+                <dt>Dream:</dt>
+                <dd class="modal__superpowers-detail">
+                  <span id="superpowerDream" class="modal__superpowers-value"></span>
+                  <div id="snowflakesDream" class="snowflakes"></div>
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
